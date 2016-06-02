@@ -254,7 +254,7 @@
 				INFOPLIST_FILE = NotifySwiftQuickstart/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twilio.notify.NotifySwiftQuickstart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NotifySwiftQuickstart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -266,7 +266,7 @@
 				INFOPLIST_FILE = NotifySwiftQuickstart/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twilio.notify.NotifySwiftQuickstart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NotifySwiftQuickstart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -290,6 +290,7 @@
 				28BF8C561CEF4B2700CB7B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
