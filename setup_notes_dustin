@@ -1,0 +1,44 @@
+
+https://www.twilio.com/blog/2016/06/adding-push-notifications-to-your-ios-app-with-swift-and-twilio-notify.html
+
+Download xcode
+download Node.js installer
+install, needs dependencies
+-twilio
+-fb
+-body-parser
+-express
+
+install by using "npm install x"
+
+add credential SID's to config.js
+
+run "npm start" to start the server
+
+install ngrok from: https://ngrok.com/download
+
+unzip the file, go to its unzipped directory, and run in a new terminal: 
+./ngrok http 3000 
+to connect with the running node server from the previous step.
+
+continue with the tutorial cloning the "NotifySwiftQuickstart" repository containing the xcode project.
+
+open the project in xcode, and continue the tutorial adding the correct functions and filling in the ngrok server address.
+
+
+Go to "build settings" for the project, and be sure to select Yes for "Use legacy Swift Language Version."
+
+Run Product -> Clean
+
+If there is an error regarding Signing and needing a development team, check out this answer:
+http://stackoverflow.com/questions/37806538/code-signing-is-required-for-product-type-application-in-sdk-ios-10-0-stic
+
+You may need to clean, close, and re-open xcode until this works.
+
+When the project cleans successfully, go to Project -> Archive and follow the prompts to save a .ipa file of the compiled project
+
+Under Window, open devices
+click the "+" sign to add the newly compiled app to a selected device that is already plugged in. 
+
+Follow the prompts
+
